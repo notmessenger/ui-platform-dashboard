@@ -8,6 +8,9 @@
     "doc": "doc",
     "test": "tests"
   },
+  "bin": {
+    "generate-graph": "./lib/dependency-graph/index.js"
+  },
   "repository": "",
   "scripts": {
     "build": "ember build",
