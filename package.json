@@ -14,6 +14,12 @@
     "start": "ember server",
     "test": "ember test"
   },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "semver-intersect": "^1.1.2"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
@@ -39,6 +45,5 @@
   },
   "engines": {
     "node": ">= 4"
-  },
-  "private": true
+  }
 }
