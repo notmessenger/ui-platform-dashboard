@@ -15,15 +15,18 @@
   "scripts": {
     "build": "ember build",
     "generate-graph": "./lib/dependency-graph/index.js",
+    "jeremy": "node --experimental-modules ./lib/dependency-graph/test.mjs",
     "start": "ember server",
     "test": "ember test"
   },
   "dependencies": {
+    "broccoli-funnel": "^2.0.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
+    "broccoli-babel-transpiler": "^5.7.2",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.12.3",
     "ember-cli-app-version": "^2.0.0",
@@ -47,5 +50,10 @@
   },
   "engines": {
     "node": ">= 4"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/add-paths-to-babel"
+    ]
   }
 }
