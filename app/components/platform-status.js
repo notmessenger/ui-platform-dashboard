@@ -1,5 +1,5 @@
 import Ember from 'ember'
-import repositories from 'jeremy'
+import repositories from 'repositories'
 
 export default Ember.Component.extend({
     init() {

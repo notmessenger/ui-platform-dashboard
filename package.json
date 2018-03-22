@@ -8,14 +8,10 @@
     "doc": "doc",
     "test": "tests"
   },
-  "bin": {
-    "generate-graph": "./lib/dependency-graph/index.js"
-  },
   "repository": "",
   "scripts": {
     "build": "ember build",
-    "generate-graph": "./lib/dependency-graph/index.js",
-    "jeremy": "node --experimental-modules ./lib/dependency-graph/test.mjs",
+    "generate-graph": "node --experimental-modules ./lib/dependency-graph/index.mjs",
     "start": "ember server",
     "test": "ember test"
   },
