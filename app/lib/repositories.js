@@ -104,4 +104,4 @@ const repositories = [
     }
 ]
 
-module.exports = repositories
+export default repositories
