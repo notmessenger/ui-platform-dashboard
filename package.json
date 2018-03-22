@@ -19,10 +19,8 @@
     "test": "ember test"
   },
   "dependencies": {
-    "chalk": "^2.3.0",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2",
-    "semver-intersect": "^1.1.2"
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
