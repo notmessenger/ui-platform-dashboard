@@ -6,9 +6,6 @@ module.exports = function(defaults) {
     // Add options here
   })
 
-  app.import('lib/repositories.js')
-  app.import('vendor/shims/repositories.js')
-
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
