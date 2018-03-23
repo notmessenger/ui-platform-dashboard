@@ -11,18 +11,15 @@
   "repository": "",
   "scripts": {
     "build": "ember build",
-    "generate-graph": "node --experimental-modules ./lib/dependency-graph/index.mjs",
+    "capture-node-data": "node --experimental-modules ./lib/dependency-graph/capture-node-data.mjs",
     "start": "ember server",
     "test": "ember test"
-  },
-  "dependencies": {
-    "broccoli-funnel": "^2.0.1",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "broccoli-babel-transpiler": "^5.7.2",
+    "broccoli-funnel": "^2.0.1",
+    "dependency-graph": "^0.7.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.12.3",
     "ember-cli-app-version": "^2.0.0",
@@ -42,7 +39,9 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "~2.12.0",
     "ember-welcome-page": "^2.0.2",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "engines": {
     "node": ">= 4"
