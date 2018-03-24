@@ -15,6 +15,10 @@
                 "includedInFoundation": true
             },
             {
+                "name": "ember-local-resolver",
+                "includedInFoundation": false
+            },
+            {
                 "name": "ember-lodash-shim",
                 "includedInFoundation": true
             },
