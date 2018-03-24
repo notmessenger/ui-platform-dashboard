@@ -8,17 +8,18 @@
     "doc": "doc",
     "test": "tests"
   },
+  "bin": {
+    "capture-node-data": "./lib/dependency-graph/capture-node-data.js"
+  },
   "repository": "",
   "scripts": {
     "build": "ember build",
-    "capture-node-data": "node --experimental-modules ./lib/dependency-graph/capture-node-data.mjs",
+    "capture-node-data": "./lib/dependency-graph/capture-node-data.js",
     "start": "ember server",
     "test": "ember test"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
-    "broccoli-babel-transpiler": "^5.7.2",
-    "broccoli-funnel": "^2.0.1",
     "dependency-graph": "^0.7.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.12.3",
@@ -45,10 +46,5 @@
   },
   "engines": {
     "node": ">= 4"
-  },
-  "ember-addon": {
-    "paths": [
-      "lib/add-paths-to-babel"
-    ]
   }
 }
