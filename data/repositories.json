@@ -2,22 +2,70 @@
     {
         "organization": "ciena-blueplanet",
         "repositories": [
-            "ciena-devops",
-            "ember-bunsen-core",
-            "ember-graphlib",
-            "ember-lodash-shim",
-            "ember-mock-socket",
-            "ember-pikaday-shim",
-            "ember-pollboy",
-            "ember-prop-types",
-            "ember-seamless-immutable-shim",
-            "ember-spread",
-            "ember-test-utils",
-            "ember-validator-shim",
-            "ember-z-schema",
-            "eslint-plugin-ember-standard",
-            "eslint-plugin-ocd",
-            "pr-bumper"
+            {
+                "name": "ciena-devops",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-bunsen-core",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-graphlib",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-lodash-shim",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-mock-socket",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-pikaday-shim",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-pollboy",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-prop-types",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-seamless-immutable-shim",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-spread",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-test-utils",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-validator-shim",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-z-schema",
+                "includedInFoundation": true
+            },
+            {
+                "name": "eslint-plugin-ember-standard",
+                "includedInFoundation": true
+            },
+            {
+                "name": "eslint-plugin-ocd",
+                "includedInFoundation": true
+            },
+            {
+                "name": "pr-bumper",
+                "includedInFoundation": true
+            }
         ],
         "urls": {
             "provider": "https://github.com/",
@@ -27,30 +75,102 @@
     {
         "organization": "ciena-frost",
         "repositories": [
-            "ember-cli-frost-blueprints",
-            "ember-frost-action-bar",
-            "ember-frost-bunsen",
-            "ember-frost-chart",
-            "ember-frost-core",
-            "ember-frost-date-picker",
-            "ember-frost-demo-components",
-            "ember-frost-fields",
-            "ember-frost-file-picker",
-            "ember-frost-info-bar",
-            "ember-frost-list",
-            "ember-frost-modal",
-            "ember-frost-navigation",
-            "ember-frost-notifier",
-            "ember-frost-object-browser",
-            "ember-frost-object-details",
-            "ember-frost-pick-list",
-            "ember-frost-popover",
-            "ember-frost-sidebar",
-            "ember-frost-sort",
-            "ember-frost-table",
-            "ember-frost-tabs",
-            "ember-frost-test",
-            "eslint-config-frost-standard"
+            {
+                "name": "ember-cli-frost-blueprints",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-action-bar",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-bunsen",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-chart",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-core",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-date-picker",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-demo-components",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-fields",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-file-picker",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-info-bar",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-list",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-modal",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-navigation",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-notifier",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-object-browser",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-object-details",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-pick-list",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-popover",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-sidebar",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-sort",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-table",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-tabs",
+                "includedInFoundation": true
+            },
+            {
+                "name": "ember-frost-test",
+                "includedInFoundation": true
+            },
+            {
+                "name": "eslint-config-frost-standard",
+                "includedInFoundation": true
+            }
         ],
         "urls": {
             "provider": "https://github.com/",
