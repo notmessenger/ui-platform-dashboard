@@ -20,11 +20,6 @@
     "dependencies": []
   },
   {
-    "name": "ember-local-resolver",
-    "description": "Turn {{a-route/local-component}} into {{local-component}}",
-    "dependencies": []
-  },
-  {
     "name": "ember-lodash-shim",
     "description": "Lodash for Ember apps",
     "dependencies": []
