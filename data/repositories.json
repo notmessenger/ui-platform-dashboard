@@ -189,38 +189,17 @@
                 "includedInFoundation": true
             },
             {
-                "name": "ciena-ui-foundation",
+                "name": "ciena-icons",
+                "includedInFoundation": true
+            },
+            {
+                "name": "frost-foundation",
                 "includedInFoundation": true
             }
         ],
         "urls": {
             "provider": "https://github.cyanoptics.com",
             "raw": "https://github.cyanoptics.com/raw/Frost/%s/master/"
-        }
-    },
-    {
-        "organization": "BP_FROST",
-        "repositories": [
-            {
-                "name": "ciena-icons",
-                "includedInFoundation": true
-            },
-            {
-                "name": "frost-app-bar",
-                "includedInFoundation": true
-            },
-            {
-                "name": "frost-authentication",
-                "includedInFoundation": true
-            },
-            {
-                "name": "frost-login",
-                "includedInFoundation": true
-            }
-        ],
-        "urls": {
-            "provider": "https://bitbucket.ciena.com",
-            "raw": "https://bitbucket.ciena.com/projects/BP_FROST/repos/%s/raw/"
         }
     }
 ]

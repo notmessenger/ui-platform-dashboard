@@ -292,5 +292,47 @@
       "eslint-plugin-ember-standard",
       "eslint-plugin-ocd"
     ]
+  },
+  {
+    "name": "ciena-comet",
+    "description": "Ember addon for kafkacomet",
+    "dependencies": [
+      "ember-mock-socket"
+    ]
+  },
+  {
+    "name": "ciena-icons",
+    "description": "The default blueprint for ember-cli addons.",
+    "dependencies": [
+      "ember-frost-core"
+    ]
+  },
+  {
+    "name": "frost-foundation",
+    "description": "The foundation for building Ciena User Interfaces",
+    "dependencies": [
+      "ember-frost-action-bar",
+      "ember-frost-bunsen",
+      "ember-frost-chart",
+      "ember-frost-core",
+      "ember-frost-date-picker",
+      "ember-frost-fields",
+      "ember-frost-file-picker",
+      "ember-frost-info-bar",
+      "ember-frost-list",
+      "ember-frost-modal",
+      "ember-frost-navigation",
+      "ember-frost-notifier",
+      "ember-frost-object-browser",
+      "ember-frost-object-details",
+      "ember-frost-pick-list",
+      "ember-frost-popover",
+      "ember-frost-sidebar",
+      "ember-frost-sort",
+      "ember-frost-table",
+      "ember-frost-tabs",
+      "ember-prop-types",
+      "ember-spread"
+    ]
   }
 ]
