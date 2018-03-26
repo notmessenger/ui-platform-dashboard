@@ -9,17 +9,20 @@
     "test": "tests"
   },
   "bin": {
+    "build-node-graphs": "./lib/dependency-graph/build-node-graphs.js",
     "capture-node-data": "./lib/dependency-graph/capture-node-data.js"
   },
   "repository": "",
   "scripts": {
     "build": "ember build",
+    "build-node-graphs": "./lib/dependency-graph/build-node-graphs.js",
     "capture-node-data": "./lib/dependency-graph/capture-node-data.js",
     "start": "ember server",
     "test": "ember test"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
+    "chalk": "^2.3.2",
     "dependency-graph": "^0.7.0",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.12.3",
