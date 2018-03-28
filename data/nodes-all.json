@@ -231,6 +231,11 @@
     ]
   },
   {
+    "name": "ember-frost-page-title",
+    "description": "An Extensible Page Title Handler",
+    "dependencies": []
+  },
+  {
     "name": "ember-frost-pick-list",
     "description": "The default blueprint for ember-cli addons.",
     "dependencies": [
@@ -325,6 +330,7 @@
       "ember-frost-notifier",
       "ember-frost-object-browser",
       "ember-frost-object-details",
+      "ember-frost-page-title",
       "ember-frost-pick-list",
       "ember-frost-popover",
       "ember-frost-sidebar",

@@ -144,6 +144,10 @@
                 "includedInFoundation": true
             },
             {
+                "name": "ember-frost-page-title",
+                "includedInFoundation": true
+            },
+            {
                 "name": "ember-frost-pick-list",
                 "includedInFoundation": true
             },
