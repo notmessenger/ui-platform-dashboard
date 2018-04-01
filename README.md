@@ -4,15 +4,15 @@
 
 ## A repository is added or removed from the purview of the Frost Foundation
 
-# The _data/repositories.json_ is manually updated to reflect the change
-# `npm run capture-node-data` is ran to generate new node data files
-# These changes are committed and pushed
+1. The _data/repositories.json_ is manually updated to reflect the change
+2. `npm run capture-node-data` is ran to generate new node data files
+3. These changes are committed and pushed
 
 ## A repository is added or removed from the Ciena organization
 
-# The _data/repositories.json_ is manually updated to reflect the change
-# `npm run capture-node-data` is ran to generate new node data files
-# These changes are committed and pushed
+1. The _data/repositories.json_ is manually updated to reflect the change
+2. `npm run capture-node-data` is ran to generate new node data files
+3. These changes are committed and pushed
 
 
 # Explanation of files
