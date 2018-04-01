@@ -9,14 +9,13 @@
     "test": "tests"
   },
   "bin": {
-    "build-node-graphs": "./lib/dependency-graph/build-node-graphs.js",
     "capture-node-data": "./lib/dependency-graph/capture-node-data.js"
   },
   "repository": "",
   "scripts": {
     "build": "ember build",
-    "build-node-graphs": "./lib/dependency-graph/build-node-graphs.js",
     "capture-node-data": "./lib/dependency-graph/capture-node-data.js",
+    "cli": "./lib/dependency-graph/cli.js",
     "start": "ember server",
     "test": "ember test"
   },
