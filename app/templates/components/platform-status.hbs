@@ -1,3 +1,49 @@
 <h1>Frost Foundation Status</h1>
 <h3>Status: RED</h3>
 
+
+<h1>Dependency Synchronization</h1>
+
+Select List or Toggle Button: All / Frost Foundation (default)
+<br><br>
+
+
+<table>
+<!--
+<thead>
+  <tr>
+    <th>Packages Using</th>
+    <th>Version</th>
+    <th>String Value</th>
+    <th>Semver Range</th>
+  </tr>
+</thead>
+-->
+<tbody>
+  {{#each status as |dependency|}}
+    <tr>
+    <td colspan="4" style="background-color: #CCC;">{{dependency.dependency}}</td>
+    </tr>
+
+    <tr>
+      <td><strong>Packages Using</strong></td>
+      <td><strong>Version</strong></td>
+      <td><strong>String Value</strong></td>
+      <td><strong>Semver Range</strong></td>
+    </tr>
+
+    {{#each dependency.packages as |package|}}
+      <tr>
+      <td>{{package.name}}</td>
+      <td>{{package.version}}</td>
+      <td>{{package.stringMatch}}</td>
+      <td>{{package.semverMatch}}</td>
+      </tr>
+    {{/each}}
+
+    <tr>
+    <td colspan="4">&nbsp;</td>
+    </tr>
+  {{/each}}
+</tbody>
+</table>
