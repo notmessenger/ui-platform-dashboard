@@ -2,7 +2,8 @@
   {
     "name": "ciena-devops",
     "description": "A collection of scripts and configurations used by the Ciena organization in their DevOps",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": []
   },
   {
     "name": "ember-bunsen-core",
@@ -12,53 +13,96 @@
       "ember-seamless-immutable-shim",
       "ember-validator-shim",
       "ember-z-schema"
+    ],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
     "name": "ember-graphlib",
     "description": "The default blueprint for ember-cli addons.",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-lodash-shim",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-local-resolver",
     "description": "Turn {{a-route/local-component}} into {{local-component}}",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "eslint-config-frost-standard"
+    ]
   },
   {
     "name": "ember-lodash-shim",
     "description": "Lodash for Ember apps",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-mock-socket",
     "description": "Ember shim for mock-socket",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-pikaday-shim",
     "description": "pikaday for Ember apps",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-pollboy",
     "description": "Ember polling service.",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-prop-types",
     "description": "This addon provides React-like property management for components.",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-spread",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-seamless-immutable-shim",
     "description": "Immutable data structures for Ember apps",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-spread",
     "description": "Dynamic options for dynamic components",
     "dependencies": [
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -66,12 +110,17 @@
     "description": "Utilities to assist with testing ember apps/addons",
     "dependencies": [
       "eslint-config-frost-standard"
-    ]
+    ],
+    "devDependencies": []
   },
   {
     "name": "ember-validator-shim",
     "description": "String validators and sanitizers for Ember apps",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-z-schema",
@@ -79,27 +128,39 @@
     "dependencies": [
       "ember-lodash-shim",
       "ember-validator-shim"
+    ],
+    "devDependencies": [
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
     "name": "eslint-plugin-ember-standard",
     "description": "ESLint rules for Ember projects.",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": []
   },
   {
     "name": "eslint-plugin-ocd",
     "description": "Obsessive compulsive ESLint rules for Javascript projects.",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": []
   },
   {
     "name": "pr-bumper",
     "description": "Bump the version of a package based on a GitHub Pull Request",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "eslint-config-frost-standard"
+    ]
   },
   {
     "name": "ember-cli-frost-blueprints",
     "description": "The place for all the frosty blueprints",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-test-utils"
+    ]
   },
   {
     "name": "ember-frost-action-bar",
@@ -107,6 +168,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -123,6 +189,12 @@
       "ember-lodash-shim",
       "ember-prop-types",
       "ember-spread"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-demo-components",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -131,6 +203,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -139,6 +216,11 @@
     "dependencies": [
       "ember-prop-types",
       "ember-spread"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -148,6 +230,13 @@
       "ember-frost-core",
       "ember-pikaday-shim",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-navigation",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
     ]
   },
   {
@@ -157,6 +246,11 @@
       "ember-frost-core",
       "ember-frost-popover",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -165,6 +259,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -173,6 +272,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -180,6 +284,13 @@
     "description": "",
     "dependencies": [
       "ember-frost-core"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-notifier",
+      "ember-frost-test",
+      "ember-prop-types",
+      "ember-test-utils"
     ]
   },
   {
@@ -188,6 +299,13 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-sort",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
     ]
   },
   {
@@ -196,6 +314,13 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-bunsen",
+      "ember-frost-tabs",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -204,6 +329,14 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-notifier",
+      "ember-frost-popover",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
     ]
   },
   {
@@ -211,6 +344,12 @@
     "description": "An ember service and component for managing application notifications",
     "dependencies": [
       "ember-frost-core"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
     ]
   },
   {
@@ -220,6 +359,15 @@
       "ember-frost-core",
       "ember-frost-popover",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-bunsen",
+      "ember-frost-list",
+      "ember-frost-sort",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
     ]
   },
   {
@@ -228,12 +376,23 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
     "name": "ember-frost-page-title",
     "description": "An Extensible Page Title Handler",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils",
+      "pr-bumper"
+    ]
   },
   {
     "name": "ember-frost-pick-list",
@@ -243,6 +402,12 @@
       "ember-frost-sort",
       "ember-frost-table",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-list",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -251,6 +416,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -259,6 +429,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -267,6 +442,11 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -275,6 +455,12 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-notifier",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
@@ -283,12 +469,21 @@
     "dependencies": [
       "ember-frost-core",
       "ember-prop-types"
+    ],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-frost-test",
+      "ember-test-utils"
     ]
   },
   {
     "name": "ember-frost-test",
     "description": "The place for all the frosty testing things",
-    "dependencies": []
+    "dependencies": [],
+    "devDependencies": [
+      "ember-cli-frost-blueprints",
+      "ember-test-utils"
+    ]
   },
   {
     "name": "eslint-config-frost-standard",
@@ -296,49 +491,7 @@
     "dependencies": [
       "eslint-plugin-ember-standard",
       "eslint-plugin-ocd"
-    ]
-  },
-  {
-    "name": "ciena-comet",
-    "description": "Ember addon for kafkacomet",
-    "dependencies": [
-      "ember-mock-socket"
-    ]
-  },
-  {
-    "name": "ciena-icons",
-    "description": "The default blueprint for ember-cli addons.",
-    "dependencies": [
-      "ember-frost-core"
-    ]
-  },
-  {
-    "name": "frost-foundation",
-    "description": "The foundation for building Ciena User Interfaces",
-    "dependencies": [
-      "ember-frost-action-bar",
-      "ember-frost-bunsen",
-      "ember-frost-chart",
-      "ember-frost-core",
-      "ember-frost-date-picker",
-      "ember-frost-fields",
-      "ember-frost-file-picker",
-      "ember-frost-info-bar",
-      "ember-frost-list",
-      "ember-frost-modal",
-      "ember-frost-navigation",
-      "ember-frost-notifier",
-      "ember-frost-object-browser",
-      "ember-frost-object-details",
-      "ember-frost-page-title",
-      "ember-frost-pick-list",
-      "ember-frost-popover",
-      "ember-frost-sidebar",
-      "ember-frost-sort",
-      "ember-frost-table",
-      "ember-frost-tabs",
-      "ember-prop-types",
-      "ember-spread"
-    ]
+    ],
+    "devDependencies": []
   }
 ]
