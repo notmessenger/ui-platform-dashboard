@@ -4,71 +4,88 @@
         "repositories": [
             {
                 "name": "ciena-devops",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-bunsen-core",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-graphlib",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-local-resolver",
-                "includedInFoundation": false
+                "includedInFoundation": false,
+                "providesIcons": false
             },
             {
                 "name": "ember-lodash-shim",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-mock-socket",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-pikaday-shim",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-pollboy",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-prop-types",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-seamless-immutable-shim",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-spread",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-test-utils",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-validator-shim",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-z-schema",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "eslint-plugin-ember-standard",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "eslint-plugin-ocd",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "pr-bumper",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             }
         ],
         "urls": {
@@ -81,103 +98,128 @@
         "repositories": [
             {
                 "name": "ember-cli-frost-blueprints",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-action-bar",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-bunsen",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-chart",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-core",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-date-picker",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-demo-components",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-fields",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-file-picker",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-info-bar",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-list",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-modal",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-navigation",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-notifier",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-object-browser",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-object-details",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-page-title",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-pick-list",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-popover",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-sidebar",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-sort",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-table",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ember-frost-tabs",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "ember-frost-test",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "eslint-config-frost-standard",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             }
         ],
         "urls": {
@@ -190,15 +232,18 @@
         "repositories": [
             {
                 "name": "ciena-comet",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             },
             {
                 "name": "ciena-icons",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": true
             },
             {
                 "name": "frost-foundation",
-                "includedInFoundation": true
+                "includedInFoundation": true,
+                "providesIcons": false
             }
         ],
         "urls": {
