@@ -514,6 +514,7 @@
     "name": "frost-foundation",
     "description": "The foundation for building Ciena User Interfaces",
     "dependencies": [
+      "ciena-icons",
       "ember-frost-action-bar",
       "ember-frost-bunsen",
       "ember-frost-chart",
